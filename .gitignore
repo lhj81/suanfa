@@ -29,6 +29,5 @@ suanfa.iml
 hs_err_pid*
 
 /suanfa.iml
-.gitignore
 .idea/
-src/
+
