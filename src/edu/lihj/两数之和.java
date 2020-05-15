@@ -46,7 +46,7 @@ public class 两数之和 {
         return result;
     }
 
-    //方式二：一遍方法
+    //方式三：一遍方法
     public int[] twoSum3(int[] nums, int target) {
         //todo 获取比目标值小的数组值
         ConcurrentHashMap<Integer, Integer> map = new ConcurrentHashMap<Integer, Integer>();
