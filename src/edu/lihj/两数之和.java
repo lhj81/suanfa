@@ -55,6 +55,9 @@ public class 两数之和 {
             if (map.containsKey(complement)) {
                 return new int[]{map.get(complement), z};
             }
+
+
+
             map.put(nums[z], z);
         }
         throw new IllegalArgumentException("无解");
